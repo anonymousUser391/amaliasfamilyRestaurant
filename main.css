@@ -39,7 +39,7 @@ body {
 }
 
 .background::before {
-  opacity: 0.2;
+  opacity: 0.35;
   content: "";
   position: absolute;
   top: 0px;
@@ -75,7 +75,7 @@ p {
   height: auto;
   padding: 16px 24px 16px 24px;
   margin: 0 auto;
-  background-color: #0d1b2a;
+  background-color: #b7b8b8;
   position: relative;
   overflow: hidden;
   /* cursor: none; */
