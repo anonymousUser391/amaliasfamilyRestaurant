@@ -177,7 +177,7 @@ header {
 }
 
 .navbtns:hover {
-  background-color: #8f939b;
+  background-color: #6b6d77;
   box-shadow: none;
 }
 
@@ -202,6 +202,7 @@ header {
   background-color: #0d1b2a;
   height: 100%;
 }
+
 img {
   width: 100%;
   /* border-radius: 45px; */
