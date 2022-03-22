@@ -293,7 +293,7 @@ h1 {
 
 .borderline {
   height: 3px;
-  width: 900px;
+  width: 90%;
   margin: 0 auto;
   background-color: #8f939b;
   margin-bottom: 12px;
@@ -443,7 +443,7 @@ footer {
   align-items: center;
 }
 .section--features{
-  margin: 40px;
+  margin: 40px auto;
 }
 
 .nav--wrapper{
@@ -488,7 +488,7 @@ footer {
   }
   .header--upper{
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     flex-direction: row;
   }
   .title{
@@ -496,13 +496,13 @@ footer {
     /* margin: 0 18%; */
     font-size: 32px;
     text-align: center;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     /* max-width: 75%; */
     /* justify-self:flex-start; */
   }
   .nav--wrapper{
-    justify-content: center;
-    gap:1%;
+    justify-content: space-evenly;
+    gap:2%;
     width: 100%;
   }
   .navbtns:link, :visited {
@@ -510,6 +510,7 @@ footer {
     padding: 8px 4px;
     /* margin-bottom: 5px; */
   display: inline-block;
+  width: 1;
 
   }
   .dropdownmenu {
@@ -522,6 +523,7 @@ footer {
   .dropdown-content{
     /* min-width: 140px; */
     font-size: 12px;
+    margin-top: 0;
   }
   .external-link-icon {
     width: 20px;
@@ -536,11 +538,52 @@ footer {
     text-align: left;
     font-weight: 700;
   }
+  .header-text-box{
+    width: 55%;
+    height: 250px;
+    padding: 15px;
+  }
+  h2{
+    font-size: 24px;
+    margin-bottom: 5%;
+  }
+  .img--lobby{
+    height: auto;
+    width: 40%;
+
+  }
+  .el--half{
+    margin: 10px auto;
+    width: 90%;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+  }
+  .features--grid{
+    column-gap: 3%;
+  }
+  .section--features{
+    width:90%;
+  }
+  .features--box{
+    padding: 5%;
+  }
+  .img--features{
+
+  }
+  h3{
+    font-size: 20px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .features--text{
+    font-size:14px
+    }
+  }
   
 
-}
-
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 855px) {
   /* body {
     background-color: lightblue;
   } */
@@ -552,22 +595,25 @@ footer {
   }
   .header--upper{
     flex-wrap: wrap;
-    padding: 8px
+    padding: 8px 8px 24px 8px;
+    width:70%;
+    margin: 0 auto;
   }
   .title{
-    font-size: 24px;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 10px;
   }
   .title::first-letter{
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     letter-spacing: 1px;
 
   }
   .navbtns:link, :visited {
-    font-size: 8px;
+    font-size: 12px;
     padding: 10px 5px;
     height: 100%;
+    width: 100px;
   }
   .dropdownmenu {
     /* min-height: 36.4px; */
@@ -590,10 +636,12 @@ footer {
   }
   .dropdown-content{
     /* min-width: 140px; */
-    font-size: 12px;
+    /* font-size: 8px; */
+    
+    min-width: auto;
   }
   .external-link-icon {
-    width: 20px;
+    width: 15px;
     padding-right: 5px;
   }
   .dropdown-content a {
@@ -604,14 +652,16 @@ footer {
     display: block;
     text-align: left;
     font-weight: 700;
+    font-size: 8px;
   }
   .nav--wrapper{
     grid-template-rows: 1fr, 1fr;
     grid-template-columns: 1fr, 1fr, 1fr;
     justify-content: center;
     align-content: space-between;
-  justify-content: space-around;
-    row-gap: 5px;
+  justify-content: center;
+    row-gap: 10%;
+    column-gap: 2%;
   }
   .navbtn--home{
     grid-row: 1 / 2;
@@ -640,24 +690,34 @@ footer {
   }
   .header-text-box{
     width: 100%;
-    padding: 5px;
+    height: auto;
+    padding: 15px;
   }
   .wrapper{
     margin: 0 auto;
   }
   h2{
-    font-size: 12px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .img--lobby{
     height: auto;
+    width: 70%;
 
   }
   .el--half{
+    margin: 10px auto;
+    width: 85%;
     flex-wrap: wrap;
-    margin: 5px 2px;
+    justify-content: center;
+    align-items: center;
+    gap:20px
   }
   p{
-    font-size: 8px;
+    font-size: 16px;
+  }
+  .section--features{
+    padding:12px;
   }
   
 
