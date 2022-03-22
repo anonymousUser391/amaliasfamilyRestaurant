@@ -479,10 +479,7 @@ footer {
 
 
 @media only screen and (max-width: 1380px) {
-  body {
-    
-    /* display: none; */
-  }
+  /* body { display: none; */
   .container{
     width: 100%;
   }
@@ -601,7 +598,7 @@ footer {
   .header--upper{
     flex-wrap: wrap;
     padding: 8px 8px 24px 8px;
-    width:70%;
+    width:95%;
     margin: 0 auto;
   }
   .title{
@@ -618,7 +615,7 @@ footer {
     font-size: 12px;
     padding: 10px 5px;
     height: 100%;
-    width: 100px;
+    width: auto;
   }
   .dropdownmenu {
     /* min-height: 36.4px; */
@@ -630,7 +627,7 @@ footer {
   .icon {
     /* display: none; */
     /* padding: 5px; */
-    width: 17px;
+    width: 10px;
   }
   .navbtn--menu{
     min-height: 15.2px;
@@ -708,7 +705,7 @@ footer {
   }
   .img--lobby{
     height: auto;
-    width: 70%;
+    width: 100%;
 
   }
   .el--half{
@@ -724,6 +721,26 @@ footer {
   }
   .section--features{
     padding:12px;
+  }
+  .features--grid{
+    column-gap: 3%;
+  }
+  .section--features{
+    width:100%;
+  }
+  .features--box{
+    padding: 5%;
+  }
+  .img--features{
+    width: 100%;
+  }
+  .features--text{
+    font-size:10px
+    }
+  h3{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 6%;
   }
   
 
