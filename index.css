@@ -218,7 +218,7 @@ h2 {
 .navbtn--menu:link,
 :visited{
   height: auto;
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
   max-height: 55px;
 }
 .external-link-icon{
@@ -488,37 +488,42 @@ footer {
   }
   .header--upper{
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
+    width:75%;
+    margin: 0 auto;
   }
   .title{
     /* margin: 0 auto; */
     /* margin: 0 18%; */
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     /* margin-bottom: 20px; */
     /* max-width: 75%; */
     /* justify-self:flex-start; */
   }
+  .title::first-letter{
+    letter-spacing: 2px;
+  }
   .nav--wrapper{
-    justify-content: space-evenly;
-    gap:2%;
+    /* justify-content: space-evenly; */
     width: 100%;
   }
   .navbtns:link, :visited {
-    font-size: 12px;
-    padding: 8px 4px;
+    font-size: 15px;
+    padding: 12px 6px;
     /* margin-bottom: 5px; */
   display: inline-block;
-  width: 1;
+  width: auto;
 
   }
   .dropdownmenu {
     margin-bottom: 0px;
-    height: fit-content;
+    height: 44px;
   }
   .icon {
     width: 16px;
+    padding-left: 0px;
   }
   .dropdown-content{
     /* min-width: 140px; */
@@ -540,11 +545,11 @@ footer {
   }
   .header-text-box{
     width: 55%;
-    height: 250px;
+    height: auto;
     padding: 15px;
   }
   h2{
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 5%;
   }
   .img--lobby{
@@ -554,7 +559,7 @@ footer {
   }
   .el--half{
     margin: 10px auto;
-    width: 90%;
+    width: 95%;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
@@ -575,7 +580,7 @@ footer {
     font-size: 20px;
   }
   p{
-    font-size: 12px;
+    font-size: 18px;
   }
   .features--text{
     font-size:14px
@@ -623,8 +628,9 @@ footer {
     height: fit-content;
   }
   .icon {
-    display: none;
-    /* padding: 0px; */
+    /* display: none; */
+    /* padding: 5px; */
+    width: 17px;
   }
   .navbtn--menu{
     min-height: 15.2px;
@@ -652,7 +658,7 @@ footer {
     display: block;
     text-align: left;
     font-weight: 700;
-    font-size: 8px;
+    font-size: 12px;
   }
   .nav--wrapper{
     grid-template-rows: 1fr, 1fr;
