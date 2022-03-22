@@ -474,14 +474,18 @@ footer {
   grid-column: 5;
 }
 .fix_navbtns{
-  max-width: fit-content;
+  max-width: 100%;
 }
 
 
 @media only screen and (max-width: 1380px) {
-  /* body {
-    background-color: lightblue;
-  } */
+  body {
+    
+    /* display: none; */
+  }
+  .container{
+    width: 100%;
+  }
   .header--upper{
     justify-content: center;
     flex-wrap: wrap;
@@ -504,7 +508,7 @@ footer {
   .navbtns:link, :visited {
     font-size: 12px;
     padding: 8px 4px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   display: inline-block;
 
   }
@@ -540,17 +544,30 @@ footer {
   /* body {
     background-color: lightblue;
   } */
+  .container{
+    padding: 8px 12px;
+  }
+  .background {
+    background-image: none;
+  }
   .header--upper{
     flex-wrap: wrap;
+    padding: 8px
   }
   .title{
-    font-size: 32px;
+    font-size: 24px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+  .title::first-letter{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+
   }
   .navbtns:link, :visited {
-    font-size: 12px;
-    padding: 8px 4px;
+    font-size: 8px;
+    padding: 10px 5px;
+    height: 100%;
   }
   .dropdownmenu {
     /* min-height: 36.4px; */
@@ -569,7 +586,7 @@ footer {
     min-width: 63.95px;
   }
   .nav--wrapper{
-    width: 60%;
+    /* width: 60%; */
   }
   .dropdown-content{
     /* min-width: 140px; */
@@ -588,5 +605,60 @@ footer {
     text-align: left;
     font-weight: 700;
   }
+  .nav--wrapper{
+    grid-template-rows: 1fr, 1fr;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    justify-content: center;
+    align-content: space-between;
+  justify-content: space-around;
+    row-gap: 5px;
+  }
+  .navbtn--home{
+    grid-row: 1 / 2;
+  }
+  .navbtn--menu{
+    grid-row: 1 / 2;
+  }
+  .navbtn--reviews{
+    width: fit-content;
+    grid-row: 1 / 2;
+  }
+  .reviews{
+    justify-self: end;
+  }
+  .fix_navbtns:first-child, .fix_navbtns:nth-child(3){
+    max-width: none;
+    width:fit-content;
+  }
+  .navbtn--about{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .navbtn--contact{
+    grid-column: 3/ 4;
+    grid-row: 2 / 3;
+  }
+  .header-text-box{
+    width: 100%;
+    padding: 5px;
+  }
+  .wrapper{
+    margin: 0 auto;
+  }
+  h2{
+    font-size: 12px;
+  }
+  .img--lobby{
+    height: auto;
+
+  }
+  .el--half{
+    flex-wrap: wrap;
+    margin: 5px 2px;
+  }
+  p{
+    font-size: 8px;
+  }
+  
 
 }
