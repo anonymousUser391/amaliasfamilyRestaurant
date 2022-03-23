@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="reviews.css" />
+    <link rel="stylesheet" href="main.css" />
     <style>
       .navbtns .navbtn--reviews {
         background-color: #8f939b;
@@ -34,38 +34,60 @@
         <div class="wrapper">
           <header>
             <div class="header--upper">
-              <h1 class="title">Amalia's Family Restaurant</h1>
-              <div class="navbtns">
-
-                <a href="index.html" class="navbtn--home">Home</a>
+              <div class="title--wrapper">
+                <h1 class="title">Amalia's Family Restaurant</h1>
+              </div>
+              <div class="nav--wrapper">
+                <div class="fix_navbtn">
+                  <a href="index.html" class="navbtns navbtn--home">Home</a>
+                </div>
                 <div class="dropdownmenu">
-                  <a href="#" class="navbtn--menu">Menu
-                    <svg xmlns="http://www.w3.org/2000/svg" 
-                    class="icon" fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor" 
-                    stroke-width="2"
-                    width="25px">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                  </svg>
+                    <a href="#" class="navbtns navbtn--menu">Menu
+                      <svg xmlns="http://www.w3.org/2000/svg" 
+                      class="icon" fill="none" 
+                      viewBox="0 0 24 24" 
+                      stroke="currentColor" 
+                      stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                    </svg>
+                    
+                    </a>
+                    
                   
-                  <!-- <a href="https://0n.b5z.net/i/u/10228994/f/2022_Breakfast_Menu.pdf" 
-                    target="_breakfastmenu"></a> -->
-                  </a>
                   <div class="dropdown-content">
                     <a href="https://0n.b5z.net/i/u/10228994/f/2022_Breakfast_Menu.pdf" 
-                    target="_breakfastmenu">Breakfast Menu</a>
-                    <a href="https://0n.b5z.net/i/u/10228994/f/2022_Lunch_and_Dinner_Menu.pdf" 
-                    target="_lunchdinnermenu">Lunch/Dinner Menu</a>
-                  </div>
-                  
-                </div>
-                <a href="reviews.html" class="navbtn--reviews">Reviews</a>
-                <a href="#" class="navbtn--about">About</a>
-                <a href="#" class="navbtn--contact">Contact</a>
+                    target="_breakfastmenu">Breakfast Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                  <a href="https://0n.b5z.net/i/u/10228994/f/2022_Lunch_and_Dinner_Menu.pdf" 
+                  target="_lunchdinnermenu">Lunch/Dinner Menu
+                  <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </a>
               </div>
-              </div>
-          </header>
+              
+            </div>
+            <div class="fix_navbtns reviews">
+              
+              <a href="reviews.html" class="navbtns navbtn--reviews">Reviews</a>
+            </div>
+            <div class="fix_navbtns">
+  
+              <a href="#" class="navbtns navbtn--about">About</a>
+            </div>
+            <div class="fix_navbtns">
+              
+              <a href="#" class="navbtns navbtn--contact">Contact</a>
+            </div>
+          </div>
+          </div>
+        </header>
+
+        
+        <div class="content-wrapper">
 
           <section class="testimonial-section">
             <div class="testimonial-grid">
@@ -90,24 +112,24 @@
               </div>
             </div>
           </section><!--Wood-->
-            <section class="testimonial-section">
-              <div class="testimonial-grid">
-                <img
-                src="images/authors/mckenna.jpg"
-                alt="Image of Justin Holston"
-                class="img img--author"
-                />
-                <div class="testimonial-box">
-                  <h2>"Everytime I go into Amalias I feel right at home!"</h2>
-                  <div class="borderline"></div>
-                  <blockquote class="testimonial-text">
-                    The food is outstanding and the people that work there are some of the nicest people I know! They always make me feel so welcomed! 
-                  </blockquote>
-                  <div class="borderline"></div>
-                  <p class="testimonial-author">&mdash; Mckenna W.</p>
-                </div>
+          <section class="testimonial-section">
+            <div class="testimonial-grid">
+              <img
+              src="images/authors/mckenna.jpg"
+              alt="Image of Justin Holston"
+              class="img img--author"
+              />
+              <div class="testimonial-box">
+                <h2>"Everytime I go into Amalias I feel right at home!"</h2>
+                <div class="borderline"></div>
+                <blockquote class="testimonial-text">
+                  The food is outstanding and the people that work there are some of the nicest people I know! They always make me feel so welcomed! 
+                </blockquote>
+                <div class="borderline"></div>
+                <p class="testimonial-author">&mdash; Mckenna W.</p>
               </div>
-            </section><!--Mckenna W.-->
+            </div>
+          </section><!--Mckenna W.-->
             <section class="testimonial-section">
               <div class="testimonial-grid">
                 <img
@@ -234,7 +256,7 @@
                     Always a pleasure to be at Amalias in downtown Oconomowoc. 
                     Good food, friendly staff, what more could you want? 
                     Definitely a place to stop at, whether visiting or living in Oconomowoc.
-
+                    
                   </blockquote>
                   <div class="borderline"></div>
                   <p class="testimonial-author">&mdash; Hal and Carole Weibel</p>
@@ -298,9 +320,9 @@
                   <div class="borderline"></div>
                   <blockquote class="testimonial-text">
                     It's a tradition for my fiance and I to go to Amalia's every Tuesday when we have the chance.
-                     The staff there are absolutely amazing. 
-                     Amalia and Sam are so kind and we love messing around with them. 
-                     Manuel is absolutely amazing. We love joking with him and his cooking is AMAZING! 
+                    The staff there are absolutely amazing. 
+                    Amalia and Sam are so kind and we love messing around with them. 
+                    Manuel is absolutely amazing. We love joking with him and his cooking is AMAZING! 
                   </blockquote>
                   <div class="borderline"></div>
                   <p class="testimonial-author">&mdash; Elizabeth Ashley and Gavin Johnson</p>
@@ -328,24 +350,25 @@
             <section class="testimonial-section">
               <div class="testimonial-grid">
                 <img
-                  src="images/authors/mark_lacombe .jpg"
-                  alt="Image of Mark LaCombe"
-                  class="img img--author"
+                src="images/authors/mark_lacombe .jpg"
+                alt="Image of Mark LaCombe"
+                class="img img--author"
                 />
                 <div class="testimonial-box">
                   <h2>"It's a wonderful place to eat."</h2>
                   <div class="borderline"></div>
                   <blockquote class="testimonial-text">
                     I've always had a positive experience. 
-I love the breakfast, I love the atmosphere.  
-They have a very friendly staff and waitresses.
-
+                    I love the breakfast, I love the atmosphere.  
+                    They have a very friendly staff and waitresses.
+                    
                   </blockquote>
                   <div class="borderline"></div>
                   <p class="testimonial-author">&mdash; Mark LaCombe</p>
                 </div>
               </div>
-             </section><!--Mark LaCombe-->
+            </section><!--Mark LaCombe-->
+          </div>
             <footer>
               <p class="footer">
                 Amalia's Family Restaurant - Copyright &copy; 2022 by Evan
