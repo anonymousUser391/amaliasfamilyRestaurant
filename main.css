@@ -249,6 +249,13 @@ footer {
 /* ------------------------ */
 /* FIRST CONTENT SECTIONS STARTS HERE*/
 /* ------------------------ */
+.el--half{
+  display:flex;
+  justify-content: space-between;
+  margin: 5%;
+  /* margin-bottom: 96px; */
+  align-items: center;
+}
 .header-text-box {
   line-height: 1.5;
   grid-row: 2 / 3;
@@ -282,13 +289,6 @@ footer {
   background-color: #8f939b;
   margin-bottom: 12px;
 }
-.el--half{
-  display:flex;
-  justify-content: space-between;
-  margin: 20px;
-  margin-bottom: 96px;
-  align-items: center;
-}
 .section--features {
   background-color: #0d1b2a;
   padding: 32px;
@@ -318,9 +318,9 @@ footer {
   font-size: 8px;
 }
 
-  /* ------------------------ */
-  /* REVIEWS PAGE STYLES*/
-/* ------------------------ */
+          /* ------------------------ */
+            /* REVIEWS PAGE STYLES*/
+          /* ------------------------ */
 .content-wrapper{
   margin-top:30px;
 }
