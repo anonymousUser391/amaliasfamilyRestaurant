@@ -494,7 +494,7 @@ footer {
   /* FIRST CONTENT SECTIONS STARTS HERE*/
   /* ------------------------ */
   .el--half{
-    margin: 10px auto;
+    margin: 20px;
     width: 95%;
     justify-content: space-between;
     align-items: center;
@@ -533,7 +533,7 @@ footer {
  
  }
  .testimonial-section{
-  width: 100%;
+  width: 90%;
   padding: 20px;
   height: 100%;
   padding: 24px;
@@ -617,7 +617,7 @@ footer {
   .header--upper{
     flex-wrap: wrap;
   padding: 8px ;
-  width:100%;
+  width: 70%;
   margin: 0 auto;
 }
 /* TITLE INFORMATION */
@@ -682,9 +682,13 @@ footer {
   /* ------------------------ */
   /* FIRST CONTENT SECTIONS STARTS HERE*/
   /* ------------------------ */
+  .el--half--one{
+    flex-direction: column-reverse;
+  }
+
   .el--half{
-    margin: 10px auto;
-    width: 85%;
+    margin: 30px auto;
+    width: 90%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -697,11 +701,15 @@ footer {
   }
   .img--lobby{
     height: auto;
-    width: 100%;
+    width: 70%;
   }
 /* ------------------------ */
 /* SECOND CONTENT SECTIONS STARTS HERE*/
 /* ------------------------ */
+
+
+
+
 .section--features{
     padding:12px;
   }
