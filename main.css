@@ -615,9 +615,9 @@ footer {
   /* HEADER DETAILS*/
   /* ------------------------ */
   .header--upper{
-    flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 8px ;
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 /* TITLE INFORMATION */
@@ -687,12 +687,12 @@ footer {
   }
 
   .el--half{
-    margin: 30px auto;
-    width: 90%;
+    margin: 30px auto 45px auto;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:20px
+    gap:5px
   }
   .header-text-box{
     width: 100%;
@@ -701,20 +701,18 @@ footer {
   }
   .img--lobby{
     height: auto;
-    width: 70%;
+    width: 100%;
   }
 /* ------------------------ */
 /* SECOND CONTENT SECTIONS STARTS HERE*/
 /* ------------------------ */
-
-
-
-
 .section--features{
+  margin: 20px auto;
     padding:12px;
   }
   .features--grid{
-    column-gap: 3%;
+    row-gap: 50px;
+    grid-template-columns: 1fr;
   }
   .section--features{
     width:100%;
@@ -724,6 +722,7 @@ footer {
   }
   .img--features{
     width: 100%;
+
   }
   .features--text{
     font-size:10px
@@ -734,7 +733,6 @@ footer {
 .testimonial-grid{
   column-gap: 2%;
   justify-content: center;
- 
  }
  .testimonial-section{
   width: 100%;
