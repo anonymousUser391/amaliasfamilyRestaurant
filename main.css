@@ -687,7 +687,7 @@ footer {
   /* ------------------------ */
   /* FIRST CONTENT SECTIONS STARTS HERE*/
   /* ------------------------ */
-  .el--half--one{
+  .el--half--one, .el--half--three{
     flex-direction: column-reverse;
   }
 
