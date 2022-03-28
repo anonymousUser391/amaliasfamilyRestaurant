@@ -140,13 +140,19 @@ footer {
 .title {
   font-size: 52px;
   align-self: center;
-  
+  margin-top: 23px;
 }
-.title::first-letter {
+.title--wrapper .img {
+  float: left;
+  /* display: inline-block; */
+  width: 120px;
+  margin: -15px -11px 0 0;
+}
+/* .title::first-letter {
   font-size: 1.5em;
   letter-spacing: 7px;
   font-weight: 700;
-}
+} */
 /* <A> TAG NAV BUTTONS */
 .nav--wrapper{
   display: grid;
@@ -191,7 +197,7 @@ footer {
 }
 
 .navbtns:hover {
-  background-color: #8f939b;
+  background-color: #6b6d77;
   box-shadow: none;
 }
 /* ICON ON MENU BUTTON */
@@ -422,14 +428,14 @@ footer {
   /* GENERAL STYLES*/
   /* ------------------------ */
   h2{
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 5%;
   }
   h3{
-    font-size: 24px;
+    font-size: 18px;
   }
   p{
-    font-size: 20px;
+    font-size: 16px;
   }
   /* ------------------------ */
   /* BACKGROUND CONTAINER*/
@@ -454,9 +460,19 @@ footer {
     font-size: 40px;
     text-align: center;
   }
-  .title::first-letter{
-    letter-spacing: 2px;
+  .title--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .title--wrapper .img {
+    /* display: inline-block; */
+    width: 120px;
+    margin: -11px -13px 0 0;
+  }
+  /* .title::first-letter{
+    letter-spacing: 2px;
+  } */
   /* NAV BUTTONS */
   .nav--wrapper{
     width: 100%;
@@ -501,17 +517,17 @@ footer {
   .el--half{
     margin: 20px;
     width: 95%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   .header-text-box{
     width: 55%;
-    height: auto;
+    height: 250px;
     padding: 15px;
   }
   .img--lobby{
     height: auto;
-    width: 40%;
+    width: 45%;
     
   }
   /* ------------------------ */
@@ -561,8 +577,9 @@ footer {
   margin-top: 8px;
  }
  .img--author{
-  height: 100%;
-  width:auto;
+  height: auto;
+  width: 100%;
+  max-width: 270px;
  }
  .testimonial-text{
   font-size: 18px;
@@ -587,21 +604,21 @@ footer {
 /* ------------------------ */
 /* MEDIA SCREEN SIZE FOR SMARTPHONES STARTS HERE*/
 /* ------------------------ */
-@media only screen and (max-width: 855px) {
+@media only screen and (max-width: 750px) {
   /* ------------------------ */
   /* GENERAL STYLES*/
   /* ------------------------ */
   h2{
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   h3{
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 6%;
+    margin-bottom: 2%;
   }
   p{
-    font-size: 18px;
+    font-size: 14px;
   }
   
   /* ------------------------ */
@@ -626,14 +643,22 @@ footer {
   margin: 0 auto;
 }
 /* TITLE INFORMATION */
+.title--wrapper{
+  width: 100%
+
+}
+
+.title--wrapper .img {
+  width: 60px;
+  margin: -4px -6px 0 0;
+}
 .title{
-  font-size: 32px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .title::first-letter{
   letter-spacing: 2px;
-
 }
   /* NAV BUTTONS */
   .nav--wrapper{
@@ -723,15 +748,15 @@ footer {
     width:100%;
   }
   .features--box{
-    padding: 5%;
+    padding: 2%;
   }
   .img--features{
     width: 100%;
 
   }
-  .features--text{
+  /* .features--text{
     font-size:10px
-  }
+  } */
   /* ------------------------ */
  /* REVIEWS PAGE STYLES*/
 /* ------------------------ */
@@ -751,7 +776,7 @@ footer {
  
  }
  .testimonial-box h2{
-  font-size: 13px;
+  font-size: 20px;
   margin-bottom: 0;
   height: auto;
  
@@ -765,7 +790,7 @@ footer {
  }
  .testimonial-text{
   height: 150px;
-  font-size: 11px;
+  font-size: 13px;
   margin: 0;
   height: 100px;
  
