@@ -55,7 +55,7 @@ h2 {
 }
 h3 {
   margin-bottom: 14px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -297,7 +297,7 @@ footer {
   text-align: center;
 }
 .borderline {
-  height: 3px;
+  height: 2px;
   width: 90%;
   margin: 0 auto;
   background-color: #8f939b;
@@ -425,13 +425,47 @@ footer {
           /* ------------------------ */
             /* CONTACT PAGE STYLES*/
           /* ------------------------ */
+
+  .contact--section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    margin: 3% auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .hours--block{
+    justify-self: center;
+    text-align: center;
+    background-color: #0d1b2a;
+    padding: 3%;
+    width: 90%;
+  }
+  .contact{
+    width: 80%;
+    background-color: rgb(196, 196, 196);
+  }
+  .hours--list{
+    list-style: none;
+    font-size: 22px;
+    line-height: 2;
+  }
+  .img--roll{
+    justify-self: center;
+    width:90%;
+    box-shadow: 0px 0px 32px 0 rgba(0, 0, 0, 1);
+  }
+  
   .map-responsive{
-    padding-bottom:56.25%;       
+    text-align: center;
+    padding: 2%;
+    background-color: #0d1b2a;       
     /* position:relative;         */
     /* height:0;         */
     /* overflow:hidden;      */
     margin: 0 auto;
     height: 100%; 
+    margin-bottom: 48px;
   }       
   .map-responsive iframe{        
        
@@ -453,7 +487,7 @@ footer {
     margin-bottom: 5%;
   }
   h3{
-    font-size: 20px;
+    font-size: 22px;
   }
   p{
     font-size: 16px;
@@ -617,6 +651,30 @@ footer {
  .testimonial-author{
   font-size: 16px;
  }
+
+  /* ------------------------ */
+  /* CONTACT PAGE STYLES*/
+  /* ------------------------ */
+  .contact--section{
+    margin:0 auto;
+    /* max-height: 300px; */
+    max-height: 680px;
+  }
+  .hours--block{
+    margin: 4% 0;
+    align-self: flex-start;
+    /* justify-self:end; */
+  }
+  .hours--block h3 {
+    font-size: 26px;
+  }
+  .hours--list{
+    font-size: 18px;
+  }
+  .img--roll {
+    max-height: 85%;
+    /* width: 85%; */
+  }
 }
 
 
@@ -823,5 +881,26 @@ footer {
  .testimonial-author{
   font-size: 8px;
  }
+   /* ------------------------ */
+  /* CONTACT PAGE STYLES*/
+  /* ------------------------ */
+  .contact--section{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .hours--block{
+    margin-top: 0;
+    grid-row: 2/ 3;
+  }
+  .img--roll{
+    max-height: 100%;
+    height: 90%;
+    
+    /* margin: -9000px 0; */
+  }
+  
+  .hours--list{
+    font-size: 16px;
+  }
   
 }
