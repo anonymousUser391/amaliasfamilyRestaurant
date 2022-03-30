@@ -38,9 +38,9 @@ p {
   font-weight: 400;
   line-height: 1.7;
 }
-section {
+/* section {
   padding: 0 24px;
-}
+} */
 h1 {
   font-size: 44px;
   line-height: 1.1;
@@ -259,6 +259,7 @@ footer {
   display:flex;
   justify-content: space-between;
   margin: 2%;
+  margin-top: 64px;
   /* margin-bottom: 96px; */
   align-items: center;
 }
@@ -284,37 +285,52 @@ footer {
   box-shadow: 0px 0px 32px 0 rgba(0, 0, 0, 1);
 }
 
-/* FEATURES */
+
+              /* ------------------------ */
+              /* ABOUT PAGE STYLES START HERE*/
+              /* ------------------------ */
 .features--grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  column-gap: 30px;
-  row-gap: 30px;
+  /* column-gap: 64px; */
+  row-gap: 80px;
+  margin-top: 48px;
+  /* align-items: center;
+  justify-content: center; */
 }
 .section--title {
   margin-bottom: 12px;
   text-align: center;
+  color: #0d1b2a;
+  font-size: 44px;
+
 }
 .borderline {
   height: 2px;
   width: 90%;
   margin: 0 auto;
-  background-color: #8f939b;
+  background-color: #0d1b2a;
   margin-bottom: 12px;
 }
 .section--features {
-  background-color: #0d1b2a;
-  padding: 32px;
+  background-color: #8a8c999c;
+  padding: 32px 0;
   margin: 40px auto;
+  margin-top: 64px;
+  width: 80%;
+
 }
 .features--box {
-  background-color: #b7b8b8;
+  background-color: #0d1b2a;
   padding: 24px;
-  color: #0d1b2a;
+  color: #fff;
+  width: 80%;
+  justify-self: center;
 }
 
 .img--features {
+  padding: 20px;
   margin-bottom: 12px;
 }
 
@@ -336,7 +352,7 @@ footer {
             /* REVIEWS PAGE STYLES*/
           /* ------------------------ */
 .content-wrapper{
-  margin-top:30px;
+  margin-top: 64px;
 }
 
 /* TESTIMONIAL */
@@ -351,7 +367,7 @@ footer {
 }
 .testimonial-section {
   display: grid;
-  width: 85%;
+  width: 80%;
   height: 364px;
   background-color: #b7b8b8;
   color: #1b263b;
@@ -433,6 +449,7 @@ footer {
     margin: 3% auto;
     justify-content: center;
     align-items: center;
+    margin-top: 64px;
   }
   .hours--block{
     justify-self: center;
@@ -464,8 +481,9 @@ footer {
     /* height:0;         */
     /* overflow:hidden;      */
     margin: 0 auto;
-    height: 100%; 
-    margin-bottom: 48px;
+    /* height: 0%;  */
+    width: 80%;
+    margin: 128px auto;
   }       
   .map-responsive iframe{        
        
@@ -571,6 +589,7 @@ footer {
   /* ------------------------ */
   .el--half{
     margin: 20px;
+    margin-top: 64px;
     width: 95%;
     justify-content: center;
     align-items: center;
@@ -657,11 +676,12 @@ footer {
   /* ------------------------ */
   .contact--section{
     margin:0 auto;
+    margin-top: 64px;
     /* max-height: 300px; */
     /* max-height: 680px; */
   }
   .hours--block{
-    margin: 4% 0;
+    /* margin: 4% 0; */
     align-self: flex-start;
     /* justify-self:end; */
   }
@@ -720,7 +740,8 @@ footer {
   /* ------------------------ */
   .header--upper{
   flex-wrap: wrap;
-  padding: 8px ;
+  padding: 8px;
+  padding-top: 0;
   width: 100%;
   margin: 0 auto;
 }
@@ -797,7 +818,7 @@ footer {
   }
 
   .el--half{
-    margin: 30px auto 45px auto;
+    margin: 64px auto 45px auto;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -820,6 +841,7 @@ footer {
 .section--features{
   margin: 20px auto;
     padding:12px;
+    margin-top: 64px;
   }
   .features--grid{
     row-gap: 50px;
@@ -829,6 +851,7 @@ footer {
     width:100%;
   }
   .features--box{
+    width: 90%;
     padding: 2%;
   }
   .img--features{
@@ -888,6 +911,7 @@ footer {
   /* ------------------------ */
   .contact--section{
     grid-template-columns: 1fr;
+    margin-top: 48px;
     /* max-height: fit-content; */
   }
   .hours--block{
@@ -905,5 +929,17 @@ footer {
   .hours--list{
     font-size: 16px;
   }
+  .map-responsive{
+    /* text-align: center; */
+    /* padding: 2%; */
+    /* background-color: #0d1b2a;        */
+    /* position:relative;         */
+    /* height:0;         */
+    /* overflow:hidden;      */
+    /* margin: 0 auto; */
+    /* height: 0%;  */
+    width: 100%;
+    /* margin-bottom: 48px; */
+  }       
   
 }
