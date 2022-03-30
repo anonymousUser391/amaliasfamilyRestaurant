@@ -258,7 +258,7 @@ footer {
 .el--half{
   display:flex;
   justify-content: space-between;
-  margin: 5%;
+  margin: 2%;
   /* margin-bottom: 96px; */
   align-items: center;
 }
@@ -452,7 +452,7 @@ footer {
   }
   .img--roll{
     justify-self: center;
-    width:90%;
+    width:65%;
     box-shadow: 0px 0px 32px 0 rgba(0, 0, 0, 1);
   }
   
@@ -658,7 +658,7 @@ footer {
   .contact--section{
     margin:0 auto;
     /* max-height: 300px; */
-    max-height: 680px;
+    /* max-height: 680px; */
   }
   .hours--block{
     margin: 4% 0;
@@ -672,7 +672,9 @@ footer {
     font-size: 18px;
   }
   .img--roll {
-    max-height: 85%;
+    max-width: 370px;
+    min-width: 300px;
+    /* max-height: 85%; */
     /* width: 85%; */
   }
 }
@@ -886,17 +888,18 @@ footer {
   /* ------------------------ */
   .contact--section{
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    /* max-height: fit-content; */
   }
   .hours--block{
     margin-top: 0;
     grid-row: 2/ 3;
   }
+  .hours--list{
+    line-height: 1.7;
+  }
   .img--roll{
-    max-height: 100%;
+    min-width: 80%;
     height: 90%;
-    
-    /* margin: -9000px 0; */
   }
   
   .hours--list{
