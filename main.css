@@ -31,7 +31,7 @@ body {
   font-family: 'Noto Serif', serif;
   color: #fff;
   background-color: #000;
-  border-bottom: 16px solid #000;
+  /* border-bottom: 16px solid #000; */
 }
 p {
   font-size: 24px;
@@ -61,11 +61,16 @@ h3 {
 }
 
 footer {
-  display: flex;
+  /* display: flex; */
   color: #b7b8b8;
   align-items: flex-end;
+  text-align: center;
   justify-content: center;
   background-color: #0d1b2a;
+  width: 100%;
+}
+footer p {
+  line-height: 1.5;
 }
 /* ------------------------ */
 /* BACKGROUND IMAGE*/
@@ -94,7 +99,7 @@ footer {
 .container {
   width: 78%;
   height: auto;
-  padding: 16px 24px 16px 24px;
+  padding: 16px 24px 0px 24px;
   margin: 0 auto;
   background-color: #b7b8b8;
   position: relative;
@@ -345,6 +350,7 @@ footer {
 }
 
 .footer {
+  margin-top: 48px;
   font-size: 8px;
 }
 
@@ -763,7 +769,7 @@ footer {
   /* BACKGROUND CONTAINER*/
   /* ------------------------ */
   .container{
-    padding: 8px 12px;
+    padding: 8px 12px 0px 12px;
   }
   .background {
     background-image: none;
