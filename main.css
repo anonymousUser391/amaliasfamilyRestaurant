@@ -147,7 +147,7 @@ footer {
   float: left;
   /* display: inline-block; */
   width: 120px;
-  margin: -15px -11px 0 0;
+  margin: -14px -13px 0 0;
 }
 /* .title::first-letter {
   letter-spacing: 0px;
@@ -573,7 +573,7 @@ footer {
   .title--wrapper .img {
     /* display: inline-block; */
     width: 120px;
-    margin: -11px -13px 0 0;
+    margin: -9px -13px 0 0;
   }
   /* .title::first-letter{
     letter-spacing: 2px;
@@ -789,7 +789,7 @@ footer {
 
 .title--wrapper .img {
   width: 60px;
-  margin: -4px -6px 0 0;
+  margin: -2px -7px 0 0;
 }
 .title{
   font-size: 20px;
