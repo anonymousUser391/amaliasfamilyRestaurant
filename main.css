@@ -643,6 +643,10 @@ footer p {
     width: 45%;
     
   }
+  .footer {
+    margin-top: 48px;
+    font-size: 8px;
+  }
   /* ------------------------ */
   /* SECOND CONTENT SECTIONS STARTS HERE*/
   /* ------------------------ */
@@ -876,6 +880,10 @@ footer p {
   .img--lobby{
     height: auto;
     width: 90%;
+  }
+  .footer {
+    margin-top: 48px;
+    font-size: 8px;
   }
 /* ------------------------ */
 /* ABOUT PAGE STYLES START HERE*/
