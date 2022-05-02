@@ -87,7 +87,7 @@ footer p {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  background-image: url("images/brick1.jpg");
+  background-image: url("images/brick.jpg");
   background-size: cover;
   background-position: top center;
   width: 100%;
@@ -356,6 +356,23 @@ footer p {
           /* ------------------------ */
             /* REVIEWS PAGE STYLES*/
           /* ------------------------ */
+.reviews-box{
+  background-color: #0d1b2a;
+  padding: 20px;
+  width: 65%;
+  justify-self: self-end;
+  height: 230px;
+  width: 600px;
+  justify-content: center;
+  display: table;
+  
+}
+.reviews-text{
+    text-align:center; 
+    vertical-align: middle;
+    display: table-cell;
+}
+
 .content-wrapper{
   margin-top: 64px;
 }
@@ -668,6 +685,13 @@ footer p {
 /* ------------------------ */
  /* REVIEWS PAGE STYLES*/
 /* ------------------------ */
+.reviews-box{
+  justify-self: center;
+  height: 200px;
+  width: 400px;
+  
+  
+}
 .testimonial-grid{
   column-gap: 2%;
   justify-content: center;
@@ -798,7 +822,7 @@ footer p {
 
 .title--wrapper .img {
   width: 60px;
-  margin: -2px -7px 0 0;
+  margin: -4px -7px 0 0;
 }
 .title{
   font-size: 20px;
@@ -915,8 +939,19 @@ footer p {
   /* ------------------------ */
  /* REVIEWS PAGE STYLES*/
 /* ------------------------ */
+.reviews-box{
+  padding: 20px;
+  justify-self: center;
+  height: 100px;
+  width: auto;
+  margin-bottom: 24px;
+}
+.reviews-text{
+  line-height: 1.7;
+
+}
 .content-wrapper{
-  margin-top: 48px;
+  margin-top: 8px;
 }
 .testimonial-grid{
   column-gap: 2%;
