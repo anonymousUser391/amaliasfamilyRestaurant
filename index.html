@@ -20,6 +20,29 @@
     <link rel="icon" itemprop="logo" href="images/letterA_icon.jpg" type="image">
   </head>
   <body>
+    <div class="popup">
+      <div class="popup-content">
+        <h1>X</h1>
+        <h2>Update</h2>
+      <p>Menu prices are increasing due to recent rise in inflation. 
+        We thank you for continuing to support local businesses during this time.</p>
+      </div>
+    </div>
+    <script>
+      const popup = document.querySelector('.popup');
+      const x = document.querySelector('.popup-content h1')
+
+      window.addEventListener('load', () => {
+        popup.classList.add('showPopup');
+        popup.childNodes[1].classList.add('showPopup');
+      })
+
+      x.addEventListener('click', () => {
+        popup.classList.remove('showPopup');
+        popup.childNodes[1].classList.remove('showPopup');
+      })
+
+    </script>
     <div class="background">
    
         <div class="container">

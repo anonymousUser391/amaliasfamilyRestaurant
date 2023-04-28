@@ -21,6 +21,48 @@ LIGHTER TINT: #ABD3FC
   box-sizing: border-box;
 }
 
+ /* ------------------------ */
+  /* POPUP CONTENT*/
+  /* ------------------------ */
+.popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 200ms ease-in-out opacity;
+  z-index: 1;
+}
+.popup-content {
+  color:#000;
+  width: 40vw;
+  background-color: rgba(255, 67, 67, 0.9);
+  padding: 4rem;
+  padding-top: 5rem;
+  box-shadow: 10px 10px .5em rgba(0, 0, 0, 0.5);
+  border-radius: .5em;
+  opacity: 0;
+  transform: translateY(20%);
+  transition: 200ms ease-in-out opacity,
+              200ms ease-in-out transform;
+  position: relative;
+}
+.popup h1 {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+.popup h1:active {
+  transform: scale(.9);
+}
+.showPopup {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
 /* ------------------------ */
 /* GENERAL STYLES */
 /* ------------------------ */
@@ -551,6 +593,15 @@ footer p {
 /* MEDIA SCREEN SIZE FOR TABLETS STARTS HERE*/
 /* ------------------------ */
 @media only screen and (max-width: 1380px) {
+ /* ------------------------ */
+  /* POPUP CONTENT*/
+  /* ------------------------ */
+.popup-content {
+  padding: 2rem;
+}
+.popup h1 {
+  font-size: 32px;
+}
   /* ------------------------ */
   /* GENERAL STYLES*/
   /* ------------------------ */
@@ -776,6 +827,25 @@ footer p {
 /* MEDIA SCREEN SIZE FOR SMARTPHONES STARTS HERE*/
 /* ------------------------ */
 @media only screen and (max-width: 750px) {
+   /* ------------------------ */
+  /* POPUP CONTENT*/
+  /* ------------------------ */
+.popup-content {
+  width: 80vw;
+  padding: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.popup h1 {
+  top: .8rem;
+  right: 1rem;
+}
+.popup h2 {
+  font-size: 28px;
+}
+.popup p {
+  font-size: 16px;
+}
   /* ------------------------ */
   /* GENERAL STYLES*/
   /* ------------------------ */
