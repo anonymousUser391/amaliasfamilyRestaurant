@@ -832,19 +832,19 @@ footer p {
   /* ------------------------ */
 .popup-content {
   width: 80vw;
-  padding: 3rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 .popup h1 {
   top: .8rem;
   right: 1rem;
 }
 .popup h2 {
-  font-size: 28px;
+  font-size: 32px;
 }
 .popup p {
-  font-size: 16px;
+  font-size: 20px;
 }
   /* ------------------------ */
   /* GENERAL STYLES*/
