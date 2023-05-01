@@ -1,114 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css" />
-  
-    <style>
-      .nav--wrapper .navbtn--home {
-        background-color: #6b6d77;
-        box-shadow: none;
-        cursor:default;
-      }
-    </style>
-    <title itemprop="name">Amalia's Family Restaurant</title>
-    <link rel="icon" itemprop="logo" href="images/letterA_icon.jpg" type="image">
-  </head>
-  <body>
-    <div class="popup">
-      <div class="popup-content">
-        <h1>X</h1>
-        <h2>Update</h2>
-      <p>Menu prices are increasing due to recent rise in inflation. 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+
+  <style>
+    .nav--wrapper .navbtn--home {
+      background-color: #6b6d77;
+      box-shadow: none;
+      cursor: default;
+    }
+  </style>
+  <title itemprop="name">Amalia's Family Restaurant</title>
+  <link rel="icon" itemprop="logo" href="images/letterA_icon.jpg" type="image">
+</head>
+
+<body>
+  <div class="popup">
+    <div class="popup-content">
+      <h1>X</h1>
+      <h2>Update</h2>
+      <p>Menu prices are increasing due to recent rise in inflation.
         We thank you for continuing to support local businesses during this time.</p>
-      </div>
     </div>
-    <script>
-      const popup = document.querySelector('.popup');
-      const x = document.querySelector('.popup-content h1')
+  </div>
+  <script>
+    const popup = document.querySelector('.popup');
+    const x = document.querySelector('.popup-content h1')
 
-      window.addEventListener('load', () => {
-        popup.classList.add('showPopup');
-        popup.childNodes[1].classList.add('showPopup');
-      })
+    window.addEventListener('load', () => {
+      popup.classList.add('showPopup');
+      popup.childNodes[1].classList.add('showPopup');
+    })
 
-      x.addEventListener('click', () => {
-        popup.classList.remove('showPopup');
-        popup.childNodes[1].classList.remove('showPopup');
-      })
+    x.addEventListener('click', () => {
+      popup.classList.remove('showPopup');
+      popup.childNodes[1].classList.remove('showPopup');
+    })
+  </script>
+  <div class="background">
 
-    </script>
-    <div class="background">
-   
-        <div class="container">
-    
-          <div class="wrapper" itemscope itemtype="https://amaliasfamilyrestaurant.com">
+    <div class="container">
+
+      <div class="wrapper" itemscope itemtype="https://amaliasfamilyrestaurant.com">
 
         <header>
           <div class="header--upper">
             <div class="title--wrapper">
-              <img
-              src="images/header-a-test.png"
-              alt="Amalia's signature 'A' for Amalia's Family Resturant header"
-              class="img img--header-a"
-              />
+              <img src="images/header-a-test.png" alt="Amalia's signature 'A' for Amalia's Family Resturant header"
+                class="img img--header-a" />
               <h1 class="title">
-              malia's Family Restaurant</h1>
+                malia's Family Restaurant</h1>
             </div>
             <div class="nav--wrapper">
               <div class="fix_navbtn">
                 <a href="#" class="navbtns navbtn--home">Home</a>
               </div>
               <div class="dropdownmenu">
-                  <a href="#" class="navbtns navbtn--menu">Menu
-                    <svg xmlns="http://www.w3.org/2000/svg" 
-                    class="icon" fill="none" 
-                    viewBox="0 0 24 24" 
-                    stroke="currentColor" 
-                    stroke-width="2">
+                <a href="#" class="navbtns navbtn--menu">Menu
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                   </svg>
-                  
-                  </a>
-                  
-                
-                <div class="dropdown-content">
-                  <a itemprop="hasMenu" href="https://0n.b5z.net/i/u/10228994/f/2022_Breakfast_Menu.pdf" 
-                  target="_breakfastmenu">Breakfast Menu
-                  <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                </a>
-                <a itemprop="hasMenu" href="https://0n.b5z.net/i/u/10228994/f/2022_Lunch_and_Dinner_Menu.pdf" 
-                target="_lunchdinnermenu">Lunch/Dinner Menu
-                <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-            
-          </div>
-          <div class="fix_navbtns reviews">
-            
-            <a href="reviews.html" class="navbtns navbtn--reviews">Reviews</a>
-          </div>
-          <div class="fix_navbtns">
 
-            <a href="about.html" class="navbtns navbtn--about">About</a>
+                </a>
+
+
+                <div class="dropdown-content">
+                  <a itemprop="hasMenu" href="https://0n.b5z.net/i/u/10228994/f/2022_Breakfast_Menu.pdf"
+                    target="_breakfastmenu">Breakfast Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                  <a itemprop="hasMenu" href="https://0n.b5z.net/i/u/10228994/f/2022_Lunch_and_Dinner_Menu.pdf"
+                    target="_lunchdinnermenu">Lunch/Dinner Menu
+                    <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24"
+                      stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+
+              </div>
+              <div class="fix_navbtns reviews">
+
+                <a href="reviews.html" class="navbtns navbtn--reviews">Reviews</a>
+              </div>
+              <div class="fix_navbtns">
+
+                <a href="about.html" class="navbtns navbtn--about">About</a>
+              </div>
+              <div class="fix_navbtns">
+
+                <a href="contact.html" class="navbtns navbtn--contact">Contact</a>
+              </div>
+            </div>
           </div>
-          <div class="fix_navbtns">
-            
-            <a href="contact.html" class="navbtns navbtn--contact">Contact</a>
-          </div>
-        </div>
-        </div>
-      </header>
-      <div class="el--half el--half--one">
+        </header>
+        <div class="el--half el--half--one">
 
           <div class="header-text-box">
             <h2>
@@ -121,32 +120,25 @@
               serve breakfast, lunch and dinner all day.
             </p>
           </div>
-          <img
-          src="images/front-entrance.jpg"
-          alt="The front entrance of Amalia's Family Resturant"
-          class="img img--lobby"
-          />
-          
+          <img src="images/front-entrance.jpg" alt="The front entrance of Amalia's Family Resturant"
+            class="img img--lobby" />
+
         </div>
 
         <div class="el--half el--half--two">
 
-          <img
-          src="images/lobby.jpg"
-          alt="The lobby of Amalia's Family Resturant"
-          class="img img--lobby"
-          />
+          <img src="images/lobby.jpg" alt="The lobby of Amalia's Family Resturant" class="img img--lobby" />
           <div class="header-text-box grey--background">
             <h2>
               Conveniently located in Downtown Oconomowoc
             </h2>
             <p itemprop="description">
-              The ambience at Amalia’s is one our best-known characteristics, 
-              however the food cooked up by Chef Manuel Perez and his staff are also well-known. 
+              The ambience at Amalia’s is one our best-known characteristics,
+              however the food cooked up by Chef Manuel Perez and his staff are also well-known.
               Our dine-in experience is one to never forget.
             </p>
           </div>
-          
+
         </div>
 
         <div class="el--half el--half--three">
@@ -156,29 +148,27 @@
               We are open for dine-in and takeout
             </h2>
             <p>
-              We are doing what we can to keep our customers and staff safe by abiding all guidelines and mandates. 
+              We are doing what we can to keep our customers and staff safe by abiding all guidelines and mandates.
               We appreciate all you are doing to help support local businesses during this time.
             </p>
           </div>
-          <img
-          src="images/back-entrance.jpg"
-          alt="The back entrance of Amalia's Family Resturant"
-          class="img img--lobby"
-          />
-          
-        </div>
-      
-      <footer>
-        <p class="footer" itemprop="telephone" content="+2625679594">
-          Amalia's Family Restaurant (262)567-9594 - Copyright &copy; 2023 by Evan
-          Blankenheim.
-        </p>
-      </footer>
-    <!-- </div> -->
-  </div>
-</div>
+          <img src="images/back-entrance.jpg" alt="The back entrance of Amalia's Family Resturant"
+            class="img img--lobby" />
 
-    
+        </div>
+
+        <footer>
+          <p class="footer" itemprop="telephone" content="+2625679594">
+            Amalia's Family Restaurant (262)567-9594 - Copyright &copy; 2023 by Evan
+            Blankenheim.
+          </p>
+        </footer>
+        <!-- </div> -->
+      </div>
+    </div>
+
+
   </div>
 </body>
+
 </html>
