@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="main.css" />
 
   <style>
-    .nav--wrapper .navbtn--contact {
+    .nav--wrapper .navbtn--menu {
       background-color: #6b6d77;
       box-shadow: none;
       cursor: default;
@@ -19,17 +19,15 @@
   </style>
   <title itemprop="name">Amalia's Family Restaurant</title>
   <link rel="icon" itemprop="logo" href="images/letterA_icon.jpg" type="image">
-
-  <!-- <script src="./index.js"></script> -->
-
 </head>
 
 <body>
+  
   <div class="background">
 
     <div class="container">
 
-      <div class="wrapper">
+      <div class="wrapper" itemscope itemtype="https://amaliasfamilyrestaurant.com">
 
         <header>
           <div class="header--upper">
@@ -52,10 +50,9 @@
 
                 </a>
 
-
                 <div class="dropdown-content">
                   <a itemprop="hasMenu"
-                    href="breakfast.html"
+                    href="#"
                     target="_breakfastmenu" type="application/pdf">Breakfast Menu
                     <svg xmlns="http://www.w3.org/2000/svg" class="external-link-icon" fill="none" viewBox="0 0 24 24"
                       stroke="currentColor" stroke-width="2">
@@ -86,71 +83,27 @@
               </div>
               <div class="fix_navbtns">
 
-                <a href="#" class="navbtns navbtn--contact">Contact</a>
+                <a href="contact.html" class="navbtns navbtn--contact">Contact</a>
               </div>
             </div>
           </div>
         </header>
+        
+        <center>
+          <object data=
+"menus/breakfastMenu.pdf"
+                width="100%"
+                height="1000px">
+        </object>
+        </center>
 
-        <div class="contact--section">
-          <img src="images/cinnamon-roll.jpg" alt="The front entrance of Amalia's Family Resturant"
-            class="img img--roll" />
-
-          <div class="hours--block">
-
-            <h3>Hours of Operation:</h3>
-            <div class="borderline contact"></div>
-            <ul class="hours--list">
-              <li itemprop="openingHours" content="Mo 7:00-14:00">
-                Monday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am - 2:00pm</li>
-              <li itemprop="openingHours" content="Tu 7:00-20:00">
-                Tuesday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am - 8:00pm</li>
-              <li itemprop="openingHours" content="We 7:00-20:00">Wednesday:&nbsp;&nbsp;7:00am - 8:00pm</li>
-              <li itemprop="openingHours" content="Th 7:00-20:00">Thursday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am - 8:00pm
-              </li>
-              <li itemprop="openingHours" content="Fr 7:00-20:00">
-                Friday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am - 8:00pm</li>
-              <li itemprop="openingHours" content="Sa 7:00-20:00">Saturday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am -
-                8:00pm</li>
-              <li itemprop="openingHours" content="Su 7:00-14:00">
-                Sunday:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:00am - 2:00pm</li>
-            </ul>
-          </div>
-
-
-        </div>
-
-        <div class="phone--facebook">
-
-          <a itemprop="telephone" href="tel:2625679594" class="phone--link">
-            <img alt="Phone Icon" src="./images/phone.png" class="phone--icon">
-          </a>
-
-
-
-          <a itemprop="url" href="https://www.facebook.com/amaliasfamilyrestaurant/" class="facebook--link">
-            <img alt="Facebook Icon" src="./images/facebook.png" class="facebook--icon">
-          </a>
-
-
-        </div>
-
-        <div class="map-responsive">
-          <h3>Google Maps:</h3>
-          <div class="borderline contact"></div>
-          <iframe itemprop="hasMap"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2912.727100839768!2d-88.49911628465225!3d43.11024967914367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8805ca6a4156dc87%3A0x3f5645feae074a76!2sAmalia&#39;s%20Family%20Restaurant!5e0!3m2!1sen!2sus!4v1648566209214!5m2!1sen!2sus"
-            width="600px" height="600px" style="border:0" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        <!-- </div> -->
         <footer>
           <p class="footer" itemprop="telephone" content="+2625679594">
             Amalia's Family Restaurant (262)567-9594 - Copyright &copy; 2023 by Evan
             Blankenheim.
           </p>
         </footer>
+        <!-- </div> -->
       </div>
     </div>
 
